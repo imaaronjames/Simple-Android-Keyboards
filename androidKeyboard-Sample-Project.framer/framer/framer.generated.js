@@ -2,9 +2,9 @@
 
 
 if (typeof(DeviceComponent) !== "undefined") {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-window.Framer.Defaults.DeviceView = {"deviceScale":-1,"deviceType":"nexus-5-black","contentScale":1,"orientation":0};
+window.Framer.Defaults.DeviceView = {"deviceScale":0.25,"deviceType":"nexus-5-black","contentScale":1,"orientation":0};
 
-window.Framer.Defaults.DeviceComponent = {"deviceScale":-1,"deviceType":"nexus-5-black","contentScale":1,"orientation":0};
+window.Framer.Defaults.DeviceComponent = {"deviceScale":0.25,"deviceType":"nexus-5-black","contentScale":1,"orientation":0};
 
 window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"androidKeyboard-Sample-Project.framer"};
 

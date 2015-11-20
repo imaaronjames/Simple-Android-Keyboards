@@ -1,6 +1,8 @@
 # Simple-Android-Keyboards
 Easily add static Android Keyboards to your Framer Studio projects with just one line of code. Keyboards include default, numbers, symbols, dialpad, and voice.
 
+![TextLayer](https://raw.githubusercontent.com/imaaronjames/Simple-Android-Keyboards/master/androidKeyboard-Sample-Project.framer/images/keyboards.jpg)
+
 ## Installation
 
 1. Download the androidKeyboard.coffee file and keyboards folder
