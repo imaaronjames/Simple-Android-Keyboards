@@ -13,19 +13,19 @@ More info about modules for Framer Studio: [FramerJS Docs - Modules](http://fram
 
 ![TextLayer](https://raw.githubusercontent.com/imaaronjames/Simple-Android-Keyboards/master/androidKeyboard-Sample-Project.framer/images/keyboards.jpg)
 
-## How to use this module:
+## How to use this module
 You only need one line of code to make Simple Android Keyboards work. It looks a little something like this.
 
   `android.keyboard("default", "light", true)`
 
-## Simple customization
+### Simple customization
 There are three parameters you can change: keyboardType, keyboardTheme, and hasAutoCorrect
 
-**keyboardType**(string) - default, numbers, symbols, dialpad, voice
+**keyboardType** (string) -- default, numbers, symbols, dialpad, voice
 
-**keyboardTheme**(string) - light or dark
+**keyboardTheme** (string) -- light or dark
 
-**hasAutoCorrect**(boolean) - true = show, false = hide
+**hasAutoCorrect** (boolean) -- true = show, false = hide
 
 ___
 That's it! the keyboard will automatically animate in for you. When you tap the done button in the bottom right hand corner, the keyboard will dismiss itself and destroy the layers that were created. Simple.
