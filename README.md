@@ -5,6 +5,8 @@ Easily add static Android Keyboards to your Framer Studio projects with just one
 
 ## Installation
 
+![TextLayer](https://raw.githubusercontent.com/imaaronjames/Simple-Android-Keyboards/master/androidKeyboard-Sample-Project.framer/images/samplecode.png)
+
 1. Download the androidKeyboard.coffee file and keyboards folder
 2. Create a framer project and drop both androidKeyboard.coffee and keyboards folder inside the your /modules folder
 3. Add `android = require 'androidKeyboard'` at the top of your document.
@@ -14,7 +16,7 @@ More info about modules for Framer Studio: [FramerJS Docs - Modules](http://fram
 ### How to use this module:
 You only need one line of code to make Simple Android Keyboards work. It looks a little something like this.
 
-  android.keyboard("default", "light", true)
+  `android.keyboard("default", "light", true)`
 
 There are three parameters you can change: keyboardType, keyboardTheme, and hasAutoCorrect
 
