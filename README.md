@@ -27,5 +27,10 @@ There are three parameters you can change: keyboardType, keyboardTheme, and hasA
 
 &nbsp;&nbsp;&nbsp;&nbsp;**hasAutoCorrect** (boolean) -- true = show, false = hide
 
+## Adding Events to the done button
+Any Event can be assigned to the done button. To do this, use this line:
+
+&nbsp;&nbsp;&nbsp;&nbsp;`doneBTN.on Events.Click, ->`
+
 ___
 That's it! the keyboard will automatically animate in for you. When you tap the done button in the bottom right hand corner, the keyboard will dismiss itself and destroy the layers that were created. Simple.

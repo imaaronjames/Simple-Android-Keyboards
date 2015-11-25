@@ -53,7 +53,7 @@ exports.keyboard = (keyboardType, keyboardTheme, hasAutoCorrect) ->
 		up: maxY: Screen.height
 	keyboard.states.animationOptions = time: 0.3
 
-	doneBTN = new Layer
+	window["doneBTN"] = new Layer
 		name: "doneBTN"
 		superLayer: keyboard
 		x: Screen.width - 160, y: 620
