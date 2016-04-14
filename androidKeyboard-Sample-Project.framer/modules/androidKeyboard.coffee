@@ -1,4 +1,4 @@
-# Module created by Aaron James | November 19th, 2015
+# Module created by Aaron James | April 16th, 2016
 #
 # Add the following line at the top of your project to access this module:
 # android = require "androidKeyboard"
@@ -13,7 +13,7 @@
 #
 # If you change the directory of the images, update dir below with the correct file path
 
-exports.keyboard = (keyboardType, keyboardTheme, hasAutoCorrect) ->
+exports.Keyboard = (keyboardType, keyboardTheme, hasAutoCorrect) ->
 
 	## Define the directory the images live in and the image format
 	dir = "modules/keyboards/"
