@@ -1,4 +1,4 @@
-## Created by Aaron James
+## Created by Aaron James | April 14th, 2016
 ## Simple Android Keyoards
 
 android = require "androidKeyboard"
